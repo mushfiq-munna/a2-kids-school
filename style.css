@@ -42,6 +42,10 @@ body {
   text-transform: uppercase;
 }
 
+.dropdown-btn {
+  display: none;
+}
+
 .nav-links .nav-links-holder {
   display: flex;
   gap: 30px;
@@ -80,4 +84,34 @@ body {
   font-size: 17px;
   font-weight: 600;
   cursor: pointer;
+}
+
+/* --------------MediaQuery------------- */
+
+@media screen and (max-width: 575.98px) {
+  .nav-bar {
+    width: 100%;
+  }
+  .nav-container {
+    width: auto;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  .nav-logo h2 {
+    display: none;
+  }
+
+  .nav-links-holder li,
+  .nav-btn {
+    display: none;
+  }
+
+  .dropdown-btn {
+    display: contents;
+  }
+
+  .dropdown-btn .fa-bars {
+    font-size: 1.5rem;
+  }
 }
