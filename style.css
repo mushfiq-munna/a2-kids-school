@@ -21,7 +21,6 @@ body {
 
 .nav-container {
   display: flex;
-  /* gap: 176px; */
   justify-content: space-between;
   align-items: center;
   width: 1098px;
@@ -87,6 +86,57 @@ body {
   cursor: pointer;
 }
 
+/* -----------bannar-style------------- */
+.bannar {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  /* width: 1098px;
+  margin: 0 auto; */
+  margin: 0 132px;
+}
+
+.bannar-text-container {
+  width: 606px;
+}
+
+.bannar-text-container h2 {
+  font-size: 3.3rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.empowering {
+  color: #fea301;
+}
+
+.students {
+  color: #111111;
+}
+
+.vision {
+  color: #01acfd;
+}
+
+.bannar-text-container p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #111111;
+  margin: 22px 0;
+}
+
+.bannar-btn {
+  color: #ffffff;
+  background-color: #111111;
+  padding: 10px 57px;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 /* --------------MediaQuery------------- */
 
 @media screen and (max-width: 575.98px) {
@@ -95,7 +145,7 @@ body {
   }
   .nav-container {
     width: 100%;
-    /* gap: 0; */
+    display: flex;
     justify-content: space-between;
     margin: 1rem;
   }
