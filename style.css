@@ -21,7 +21,8 @@ body {
 
 .nav-container {
   display: flex;
-  gap: 176px;
+  /* gap: 176px; */
+  justify-content: space-between;
   align-items: center;
   width: 1098px;
 }
@@ -93,7 +94,8 @@ body {
     width: 100%;
   }
   .nav-container {
-    width: auto;
+    width: 100%;
+    /* gap: 0; */
     justify-content: space-between;
     margin: 1rem;
   }
