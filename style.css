@@ -453,4 +453,40 @@ body {
   .solid-btn {
     display: none;
   }
+
+  /* ---------story responsive---------- */
+
+  .story-container {
+    width: 100%;
+  }
+
+  .story-card-big {
+    display: none;
+  }
+
+  .story-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: normal;
+    margin: 40px 20px;
+  }
+
+  .stories h3 {
+    font-size: 23px;
+  }
+
+  .card-heading {
+    font-size: 8px;
+    margin: 20px;
+  }
+
+  .story-date {
+    font-size: 9px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 44px;
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+  }
 }
