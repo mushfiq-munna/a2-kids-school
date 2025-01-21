@@ -7,6 +7,49 @@
 
 body {
   font-family: "Quicksand", serif;
+  background-color: #f7f7f7;
+}
+
+/* -------------shared style----------- */
+
+.curriculum-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  border-radius: 1rem;
+  border: 0.8px solid #def5ff;
+  padding: 2.5rem;
+}
+
+.curriculum-card-heading {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.curriculum-card-img {
+  width: 138px;
+  height: 138px;
+}
+
+.curriculum-card-details {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #808080;
+  line-height: 1.5rem;
+}
+
+.card-gradient-1 {
+  background-image: linear-gradient(to bottom, #def5ff, #ffffff 40%);
+}
+
+.card-gradient-2 {
+  background-image: linear-gradient(to bottom, #fff4dc, #ffffff 40%);
+}
+
+.card-gradient-3 {
+  background-image: linear-gradient(to bottom, #eee1ff, #ffffff 40%);
 }
 
 /* ------------nav-style--------------- */
@@ -89,12 +132,9 @@ body {
 /* -----------bannar-style------------- */
 .bannar {
   display: flex;
-  /* justify-content: center; */
   justify-content: space-between;
   align-items: center;
-  /* width: 1098px;
-  margin: 0 auto; */
-  margin: 0 132px;
+  margin: 0 132px 20px 132px;
 }
 
 .bannar-text-container {
@@ -135,6 +175,75 @@ body {
   font-size: 17px;
   font-weight: 700;
   cursor: pointer;
+}
+
+/* ----------Standard Curriculum Style------------- */
+
+main {
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.curriculum {
+  width: 100%;
+  height: 832px;
+  margin-top: 10px;
+  padding: 36px;
+}
+
+.curriculum h2 {
+  text-align: center;
+}
+
+.curriculum-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 26px;
+  margin: 75px auto;
+  width: 1098px;
+}
+
+.curriculum-btn {
+  color: #64c8ff;
+  background-color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.curriculum-btn-2 {
+  color: #f0aa00;
+  background-color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.curriculum-btn-3 {
+  color: #8700ff;
+  background-color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.slid-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.slid-btn p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #fea301;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
 }
 
 /* --------------MediaQuery------------- */
