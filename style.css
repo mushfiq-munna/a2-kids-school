@@ -384,12 +384,8 @@ footer {
 
 .footer-logo {
   display: flex;
-  margin: 20px 0;
-}
-
-.footer-logo img {
-  background-color: #ffffff;
-  border-radius: 50%;
+  align-items: center;
+  margin: 0 0 20px 0;
 }
 
 .footer-logo h2 {
@@ -442,6 +438,7 @@ footer {
 .social-link a {
   color: #f0aa00;
 }
+
 /* --------------MediaQuery------------- */
 
 @media screen and (max-width: 575.98px) {
@@ -564,5 +561,34 @@ footer {
     position: absolute;
     left: 20px;
     bottom: 40px;
+  }
+
+  /* -----------footer responsive------------ */
+
+  .footer-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+  }
+
+  .footer-logo h2 {
+    font-size: 33px;
+  }
+
+  .footer-description {
+    width: 100%;
+  }
+
+  .footer-menu {
+    gap: 10px;
+  }
+  .footer-menu h5 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+
+  .footer-menu a {
+    font-size: 15px;
   }
 }
