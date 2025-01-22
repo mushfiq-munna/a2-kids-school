@@ -486,11 +486,14 @@ footer {
   }
 
   .bannar-img {
-    width: 100%;
-    height: auto;
+    width: 330px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+  }
+
+  .bannar-img img {
+    width: 100%;
   }
 
   .bannar-text-container {
