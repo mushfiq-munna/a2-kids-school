@@ -485,9 +485,12 @@ footer {
     gap: 18px;
   }
 
-  .bannar img {
+  .bannar-img {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
   }
 
   .bannar-text-container {
@@ -570,11 +573,12 @@ footer {
   .story-date {
     font-size: 9px;
     font-weight: 600;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 44px;
     position: absolute;
     left: 20px;
-    bottom: 40px;
+    bottom: 30px;
   }
 
   /* -----------footer responsive------------ */
