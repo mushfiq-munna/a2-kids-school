@@ -65,6 +65,14 @@ body {
   background-color: #5d58f0;
 }
 
+marquee {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
 /* ------------nav-style--------------- */
 
 .nav-bar {
@@ -476,6 +484,12 @@ footer {
     justify-content: center;
     gap: 18px;
   }
+
+  .bannar img {
+    width: 100%;
+    height: auto;
+  }
+
   .bannar-text-container {
     display: flex;
     flex-direction: column;
